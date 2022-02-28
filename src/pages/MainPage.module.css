@@ -1,0 +1,15 @@
+.button {
+  background: #030303;
+}
+
+.searchInput {
+  background: #ffffff;
+  opacity: 0.15;
+  border-radius: 18px;
+}
+
+.profile {
+  background: #ffffff;
+  opacity: 0.08;
+  border-radius: 27px;
+}

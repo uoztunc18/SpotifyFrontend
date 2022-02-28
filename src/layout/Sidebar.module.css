@@ -1,0 +1,150 @@
+.sidebar {
+  /* Sidebar */
+
+  /* position: absolute;
+  width: 224px;
+  height: 100%;
+  left: 0px;
+  top: 0px; */
+
+  /* background-color: red; */
+  width: 224px;
+  height: 90%;
+  left: 0;
+  top: 0;
+  /* right: 0; */
+  /* float: left; */
+  position: absolute;
+  overflow-y: scroll;
+  /* z-index: 1; */
+
+  /* Space Grey */
+
+  background: #030303;
+}
+
+.entry {
+  /* Menu Entry Active */
+
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 55px;
+  top: 100px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  
+  
+  /* White */
+  
+  /* color: #FFFFFF; */
+
+
+}
+
+.look {
+  /* Menu Entry Disabled */
+
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 55px;
+  top: 150px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.library {
+  /* Kitaplık */
+
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 55px;
+  top: 200px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.text {
+  /* Çalma Lİstelerin */
+
+  position: absolute;
+  width: 200px;
+  height: 14px;
+  left: 24px;
+  top: 313px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+
+  opacity: 0.6;
+}
+
+.searchInput {
+  /* Rectangle 6 */
+
+  position: absolute;
+  width: 176.77px;
+  height: 34.87px;
+  left: 15px;
+  top: 341px;
+
+  /* White */
+
+  background: #ffffff;
+  opacity: 0.15;
+  border-radius: 18px;
+}
+
+.list {
+  /* Frame 1 */
+
+  position: absolute;
+  height: 18px;
+  left: 10px;
+  right: 28px;
+  top: 392px;
+}
+
+.playlist {
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* White */
+
+  color: #ffffff;
+
+  opacity: 0.6;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 7px 6px;
+}

@@ -1,0 +1,12 @@
+.mainContent {
+  padding: 0;
+  margin: 0;
+  left: 224px;
+  height: 90%;
+  display: flex;
+  position: absolute;
+  overflow-y: scroll;
+  /* Gradient */
+
+  background: linear-gradient(113.83deg, #121212 0.59%, #121212 99.74%);
+}
